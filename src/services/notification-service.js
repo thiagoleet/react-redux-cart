@@ -27,7 +27,7 @@ export class NotificationService {
       this.action({
         title,
         message,
-        status: "success",
+        status: "pending",
       })
     );
   }
